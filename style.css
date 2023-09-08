@@ -1,0 +1,97 @@
+.about-us-div{
+    background-image: url("./images/unsplash_WlhfyAHmpII.png");
+    opacity: 80%;
+    height: 100%;
+    width: 100%;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.about-us-para{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* .col_2019{
+    background-image: url("./images/1.png");
+    height: 10px;
+    width: 10px;
+    background-position: center; /* Center the image 
+  background-repeat: no-repeat; /* Do not repeat the image 
+  background-size: cover;  Resize the background image to cover the entire container 
+} */
+
+.img-box{
+    background-color: white;
+    height: 210px;
+    width: 210px;
+}
+
+.heading{
+
+    -webkit-text-stroke: 1.5px white;
+    -webkit-text-fill-color: black;
+    font-weight: 700;
+}
+
+.home-page-para{
+    text-align: center;
+    font-size: 5cm;
+    text-decoration: purple;
+}
+
+.navbar{
+    position: fixed;
+}
+
+@media only screen and (max-width: 800px){
+    .home-page-para{
+        text-align: center;
+        text-decoration: purple;
+    }
+
+    .about-us-div{
+        background-image: url("./images/unsplash_WlhfyAHmpII.png");
+        opacity: 80%;
+        height: 100%;
+        width: 100%;
+        background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    
+    .about-us-para{
+        padding-top: 50px;
+        color: white;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .img-box{
+        background-color: white;
+        height: 210px;
+        width: 210px;
+    }
+    
+    .heading{
+    
+        -webkit-text-stroke: 1.5px white;
+        -webkit-text-fill-color: black;
+        font-weight: 700;
+    }
+    
+    .home-page-para{
+        text-align: center;
+        font-size: 5cm;
+        text-decoration: purple;
+    }
+    
+    .navbar{
+        position: fixed;
+    }
+}
