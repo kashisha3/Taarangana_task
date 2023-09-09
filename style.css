@@ -1,5 +1,5 @@
 .about-us-div{
-    background-image: url("./unsplash_WlhfyAHmpII.png");
+    background-image: url("./images/unsplash_WlhfyAHmpII.png");
     opacity: 80%;
     height: 100%;
     width: 100%;
@@ -41,7 +41,7 @@
 .home-page-para{
     text-align: center;
     font-size: 5cm;
-    text-decoration: purple;
+    color: purple;
 }
 
 .navbar{
@@ -49,13 +49,9 @@
 }
 
 @media only screen and (max-width: 800px){
-    .home-page-para{
-        text-align: center;
-        text-decoration: purple;
-    }
 
     .about-us-div{
-        background-image: url("./unsplash_WlhfyAHmpII.png");
+        background-image: url("./images/unsplash_WlhfyAHmpII.png");
         opacity: 80%;
         height: 100%;
         width: 100%;
@@ -87,11 +83,16 @@
     
     .home-page-para{
         text-align: center;
-        font-size: 5cm;
-        text-decoration: purple;
+        font-size: 2cm;
+        color: purple;
     }
     
     .navbar{
         position: fixed;
+    }
+
+    .home-page{
+        height: 50px;
+
     }
 }
